@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./agecal.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>Age calculator</h1>
+        </header>
+
+        <div class="card">
+            <div class="dob-input-container">
+                <label>Enter you date of birth</label>
+                <input id="dob" type="date" value="2000-01-06" onchange="onDateChange()"/>
+            </div>
+
+            <div class="cur-date-input-container">
+                <label>Current date</label>
+                <input id="toDate" type="date" value="" onchange="onDateChange()"/>
+            </div>
+        </div>
+
+        <div class="age-output">
+            <p id="outputAge">Age is : - </p>
+        </div>
+
+
+    </div>
+    <script src="./agecal.js"></script>
+</body>
+</html>
