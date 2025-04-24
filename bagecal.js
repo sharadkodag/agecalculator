@@ -1,3 +1,4 @@
+document.getElementById("toDate").value = new Date();
 function onDateChange() {
     const dobString = document.getElementById("dob").value;
     const toDateString = document.getElementById("toDate").value;
